@@ -17,6 +17,7 @@ body {
 }
 .container div {
   overflow: hidden;
+  border-radius: 10px;
 }
 .container div img {
   width: 100%;
@@ -24,10 +25,12 @@ body {
   height: auto;
   object-fit: cover;
   transition: 0.5s ease;
+  border-radius: 10px;
 }
 .container div img:hover {
   transform: rotate(10deg) scale(1.2);
   filter: saturate(20%);
+  border-radius: 10px;
 }
 .container div:nth-child(1) {
   grid-column: 1/3;
